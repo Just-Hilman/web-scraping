@@ -42,5 +42,5 @@ for i in range(1, 14):
     #     n = i.text
     #     Reviews.append(n)
 
-# df = pd.DataFrame({"Names": Names, "Description": Description, "Price": Price})
-# df.to_csv("airbnb_bandung.csv")
+df = pd.DataFrame({"Names": Names, "Description": Description, "Price": Price})
+df.to_csv("airbnb_bandung.csv")
